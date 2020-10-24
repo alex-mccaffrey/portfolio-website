@@ -1,2 +1,2 @@
 # Portfolio-Website
- My first portfolio website
+ This is my first website project, creating a personal portfolio for future project to be presented on.
