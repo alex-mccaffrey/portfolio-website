@@ -3,7 +3,7 @@
 }
 
 header {
-    background-color: darkgray;
+    background-color: darkslategray;
     font-style: bold;
     text-align: center;
     font-family: copperplate, futura, sarif;
@@ -13,7 +13,7 @@ header {
 main {
     text-align: center;
     background-color: #fffcff;
-    color: darkgray
+    color: #50514F;
 }
 
 h2 {
@@ -32,6 +32,6 @@ div {
 }
 
 footer {
-    background-color: darkgray;
+    background-color: darkslateblue;
     color: #fffcff;
 }
