@@ -3,16 +3,17 @@
 }
 
 header {
-    background-color: darkslategray;
+    background-color: lightgray;
     font-style: bold;
     text-align: center;
     font-family: copperplate, futura, sarif;
-    color: #333333;
+    color: #fffcff;
 }
 
 main {
     text-align: center;
     background-color: #fffcff;
+    color: darkgray
 }
 
 h2 {
@@ -20,11 +21,7 @@ h2 {
     font-family: kabel, 'avant garde medium', sans-sarif;
 }
 
-p {
-    color: khaki;
-}
-
-body, ui, footer, main {
+body, ui, footer, main, div {
     text-align: center;
 }
 
