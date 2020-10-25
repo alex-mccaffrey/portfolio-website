@@ -5,11 +5,13 @@
 header {
     background-color: 247BA0;
     font-style: bold;
+    text-align: center;
     font-family: copperplate, futura, sarif;
     color: #333333;
 }
 
 main {
+    text-align: center;
     background-color: #fffcff;
 }
 
@@ -22,10 +24,13 @@ p {
     color: #50514F;
 }
 
-body, ui {
+body, ui, footer {
     text-align: center;
 }
 
 div {
     width: 450px;
 }
+
+
+
