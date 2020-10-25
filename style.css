@@ -14,8 +14,8 @@ main {
     text-align: center;
     background-color: #fffcff;
     color: #50514F;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 h2 {
@@ -23,7 +23,7 @@ h2 {
     font-family: kabel, 'avant garde medium', sans-sarif;
 }
 
-body, ui, footer, main {
+body, footer, main {
     text-align: center;
 }
 
