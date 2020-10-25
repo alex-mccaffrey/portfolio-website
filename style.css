@@ -3,7 +3,7 @@
 }
 
 header {
-    background-color: lightgray;
+    background-color: darkgray;
     font-style: bold;
     text-align: center;
     font-family: copperplate, futura, sarif;
@@ -29,5 +29,7 @@ div {
     width: 450px;
 }
 
-
-
+footer {
+    background-color: darkgray;
+    color: #fffcff;
+}
