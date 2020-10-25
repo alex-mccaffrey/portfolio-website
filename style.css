@@ -3,7 +3,7 @@
 }
 
 header {
-    background-color: 247BA0;
+    background-color: darkslategray;
     font-style: bold;
     text-align: center;
     font-family: copperplate, futura, sarif;
@@ -21,10 +21,10 @@ h2 {
 }
 
 p {
-    color: #50514F;
+    color: khaki;
 }
 
-body, ui, footer {
+body, ui, footer, main {
     text-align: center;
 }
 
