@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 header {
-    background-color: CBD4C2;
+    background-color: 247BA0;
     font-style: bold;
     font-family: copperplate, futura, sarif;
     color: #333333;
@@ -21,3 +25,4 @@ p {
 body {
     text-align: center;
 }
+
