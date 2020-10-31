@@ -18,6 +18,7 @@ main {
     margin-right: 15%;
 }
 
+/* link formatting */
 a:visited {
   color: #00FF00;
 }
@@ -44,7 +45,6 @@ div {
 .item {
     flex: 1;
 }
-
 
 
 
