@@ -18,6 +18,33 @@ main {
     margin-right: 15%;
 }
 
+h2 {
+    color: #50514F;
+    font-family: kabel, 'avant garde medium', sans-sarif;
+}
+
+body, footer, main {
+    font-size: Arial, sans-serif;
+    text-align: center;
+}
+
+div {
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item {
+    flex: 1;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+
 /* link formatting */
 a:visited {
   color: darkblue;
@@ -25,25 +52,6 @@ a:visited {
 
 a:hover {
   color: red;
-}
-
-h2 {
-    color: #50514F;
-    font-family: kabel, 'avant garde medium', sans-sarif;
-}
-
-body, footer, main {
-    text-align: center;
-}
-
-div {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.item {
-    flex: 1;
 }
 
 
