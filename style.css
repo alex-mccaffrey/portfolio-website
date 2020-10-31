@@ -14,8 +14,16 @@ main {
     text-align: center;
     background-color: #fffcff;
     color: #50514F;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+a:visited {
+  color: #00FF00;
+}
+
+a:hover {
+  color: #FF00FF;
 }
 
 h2 {
@@ -31,4 +39,22 @@ div {
     width: 450px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.item {
+    flex: 1;
+}
+
+
+
+
+/* Desktop format*/
+media all (min-width 800px){
+    .group {
+        padding: 10px;
+        flex-direction: row;
+    }
+    section, h1 {
+        padding: 0 10%;
+    }
 }
