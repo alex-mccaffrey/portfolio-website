@@ -20,11 +20,11 @@ main {
 
 /* link formatting */
 a:visited {
-  color: #00FF00;
+  color: darkblue;
 }
 
 a:hover {
-  color: #FF00FF;
+  color: red;
 }
 
 h2 {
@@ -37,7 +37,7 @@ body, footer, main {
 }
 
 div {
-    width: 450px;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
