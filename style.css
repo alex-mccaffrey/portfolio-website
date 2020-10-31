@@ -35,6 +35,10 @@ div {
     margin-right: auto;
 }
 
+ul, ol {
+    list-style-position: inside;
+}
+
 .item {
     flex: 1;
 }
