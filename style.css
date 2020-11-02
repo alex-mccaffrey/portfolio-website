@@ -4,7 +4,7 @@
 
 header, footer {
     background-color: #50514F;
-    font-style: bold;
+    font-weight: bold;
     text-align: center;
     font-family: copperplate, futura, sarif;
     color: #fffcff;
@@ -13,11 +13,9 @@ header, footer {
 }
 
 main {
-    text-align: center;
     background-color: #fffcff;
     color: #50514F;
-    margin-left: 15%;
-    margin-right: 15%;
+    padding: 20px;
 }
 
 h2 {
@@ -26,11 +24,11 @@ h2 {
 }
 
 body, main {
-    font-size: Arial, sans-serif;
+    font-size: arial, sans-serif;
 }
 
 footer {
-    font-size: Arial, sans-serif;
+    font-size: arial, sans-serif;
     text-align: center;
 }
 
@@ -41,18 +39,16 @@ div {
     margin-right: auto;
 }
 
-ul, ol {
-    list-style-position: inside;
-}
-
 .item {
     flex: 1;
     margin: 15px;
+    justify-content: flex-start;
 }
 
 .group {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .wraper {
@@ -63,6 +59,19 @@ ul, ol {
     margin: auto;
     width: 50%;
 }
+
+
+/* list formatting*/
+ul, ol {
+    list-style-position: inside;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+
+
 
 
 /* link formatting */
@@ -84,6 +93,7 @@ img.rounded {
 img {
     width: 100%;
     height: 100%;
+    margin: 15px;
 }
 
 img.double {
