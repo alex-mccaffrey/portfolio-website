@@ -1,6 +1,8 @@
-* {
+/*
+ * {
   box-sizing: border-box;
 }
+*/
 
 header, footer {
     background-color: #50514F;
@@ -9,7 +11,7 @@ header, footer {
     font-family: copperplate, futura, sarif;
     color: #fffcff;
     padding: 10px;
-    margin: auto;
+    width: 100%;
 }
 
 main {
@@ -20,45 +22,104 @@ main {
 
 h2 {
     color: #50514F;
-    font-family: kabel, 'avant garde medium', sans-sarif;
+    font-family: arial, 'avant garde medium', sans-sarif;
 }
 
 body, main {
     font-size: arial, sans-serif;
 }
 
-footer {
-    font-size: arial, sans-serif;
-    text-align: center;
+p {
+    font-size: 18px;
 }
 
+/*
 div {
     width: 60%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
 }
+*/
 
 .item {
-    flex: 1;
-    margin: 15px;
-    justify-content: flex-start;
+    width: 100%;
 }
 
 .group {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    align-itmes: center;
+    justify-content: center;
 }
 
-.wraper {
+/*bio section*/
+
+.bio {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.center {
-    margin: auto;
-    width: 50%;
+.profileImg {
+    max-width: 65%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
+
+
+
+/* industries to impact*/
+.goals {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.industryImg {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.goals p {
+    margin-bottom: 115px;
+}
+
+.goals .item {
+    flex-direction: column;
+}
+
+
+
+/*project gallery*/
+.gallery {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery .item {
+    margin-bottom: 25px;
+}
+
+.contactInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+}
+
+.contactInfo iFrame {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
 
 
 /* list formatting*/
@@ -93,26 +154,72 @@ img.rounded {
 img {
     width: 100%;
     height: 100%;
-    margin: 15px;
 }
 
-img.double {
-    width: 200%;
-    height 200%;
-}
 
 /* Desktop format*/
-media all (min-width 700px){
-    .group {
+@media all and (min-width: 600px){
+   /* .group {
         padding: 10px;
         flex-direction: row;
     }
-    section, h1 {
+    */
+    
+   /* section, h1 {
         padding: 0 10%;
     }
+    */
     
-    .wrapper {
-        width: 80%;
-        margin: auto;
-      }
+    .bio {
+        width: 100%;
+        flex-direction: row;
+        
+    }
+
+    .profileImg {
+        max-width: 40%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+    }
+    
+    .item {
+        width: 50%;
+    }
+    
+    .goals {
+        width: 100%;
+        flex-direction: row;
+        flex: 1;
+    }
+
+    
+    .industryImg {
+        max-width: 80%;
+        height: auto;
+        border-radius: 10px;
+    }
+    
+    .goals .item {
+        flex-direction: row;
+    }
+    
+    .goals p {
+        margin-right: 30px;
+    }
+
+    .gallery {
+        flex-direction: row;
+    }
+    
+    .gallery .item {
+        margin-right: 15px;
+    }
+    
+    .contactInfo {
+        flex-direction: row;
+    }
+
+    
 }
