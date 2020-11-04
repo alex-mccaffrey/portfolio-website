@@ -23,6 +23,7 @@ main {
 h2 {
     color: #50514F;
     font-family: arial, 'avant garde medium', sans-sarif;
+    text-align: center;
 }
 
 body, main {
